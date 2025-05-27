@@ -1,4 +1,4 @@
-import Heading from "../Heading/Heading.Jsx";
+import Heading from "../Heading/Heading";
 import CounterAnimation from "./CounterAnimation";
 import StatItem from "./StatItem";
 

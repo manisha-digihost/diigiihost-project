@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Heading from "../Heading/Heading.Jsx";
+import Heading from "../Heading/Heading";
 import LogoIcon from "../../icons/LogoIcon";
-import WhatWeDoImg from "../../assets/images/WhatWeDo.png"
+import WhatWeDoImg from "../../assets/images/WhatWeDo.png";
 
 const WhatWeDo = () => {
   const [activeTab, setActiveTab] = useState("enterprise");
@@ -94,7 +94,9 @@ const WhatWeDo = () => {
             </div>
 
             <div className="md:w-3/5">
-              <h3 className="text-2xl !font-semibold mb-4">{activeContent.title}</h3>
+              <h3 className="text-2xl !font-semibold mb-4">
+                {activeContent.title}
+              </h3>
               <p className="text-gray-700 mb-6">{activeContent.description}</p>
 
               <div className="space-y-4">

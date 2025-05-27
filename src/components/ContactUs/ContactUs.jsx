@@ -1,5 +1,5 @@
 import ContactForm from "./ContactForm";
-import Heading from "../Heading/Heading.Jsx";
+import Heading from "../Heading/Heading";
 
 function ContactUs() {
   return (

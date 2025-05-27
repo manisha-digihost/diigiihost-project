@@ -1,7 +1,7 @@
 import { PlayCircle } from "lucide-react";
 import thumbNail from "../../assets/images/thumb.png";
 import Button from "../Button/Button";
-import Heading from "../Heading/Heading.Jsx";
+import Heading from "../Heading/Heading";
 
 const ChroPanelSection = () => {
   return (
@@ -12,9 +12,11 @@ const ChroPanelSection = () => {
           className=" text-lg text-center md:w-2/3 w-full mx-auto"
           withCircle={true}
           subtitleClassName="[text-[#220D04CC]]"
-          subtitle={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}
+          subtitle={
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          }
         />
-      </div>    
+      </div>
 
       <div className="relative w-full max-w-5xl aspect-video overflow-hidden rounded-md shadow-lg mb-8">
         <img
@@ -28,12 +30,9 @@ const ChroPanelSection = () => {
             <PlayCircle className="text-orange-500 w-10 h-10" />
           </div>
         </button>
-
       </div>
 
-      <Button >
-        Download Full Report
-      </Button>
+      <Button>Download Full Report</Button>
     </section>
   );
 };
