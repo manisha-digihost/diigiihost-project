@@ -1,0 +1,21 @@
+.hero {
+  position: relative;
+  background-image: url('../../assets/images/banner-bg.png');
+  background-color: rgba(10, 27, 68, 0.8);
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(10, 27, 68, 0.897);
+  /* background: linear-gradient(to right, #0a1b44, #0a1b44e6, transparent); */
+  color: white;
+  overflow: hidden;
+  min-height: 90vh;
+  clip-path: polygon(0 0, 100% 0, 100% 99%, 0% 90%);
+
+}
+
+@media (max-width: 767px) {
+  .banner-text {
+      text-align: center !important;
+  }
+}
