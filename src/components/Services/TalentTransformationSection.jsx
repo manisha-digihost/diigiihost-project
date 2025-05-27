@@ -1,6 +1,6 @@
 import ServiceCard from "./ServiceCard";
 import Button from "../Button/Button";
-import Heading from "../Heading/Heading.Jsx";
+import Heading from "../Heading/Heading";
 import TalentTransformationImg from "../../assets/images/TalentTransformationImg.png";
 import Services_1 from "../../assets/images/Services_1.png";
 import Services_2 from "../../assets/images/Services_2.png";
@@ -10,9 +10,7 @@ import Services_4 from "../../assets/images/Services_4.png";
 const TalentTransformationSection = () => {
   return (
     <>
-      <div
-        className="text-white py-16 relative section-top-angled"
-      >
+      <div className="text-white py-16 relative section-top-angled">
         <div className="container mx-auto px-4">
           <div className="flex justify-center mb-12">
             <Heading
